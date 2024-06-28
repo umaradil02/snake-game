@@ -5,7 +5,7 @@
 }
 
 .body {
-    background: url(/snake-game-landscape-jo62cmzftq0wei66.jpg);
+    background: url(/images/snake-game-landscape-jo62cmzftq0wei66.jpg);
     min-height: 100vh;
     background-size: 100vw 100vh;
     background-repeat: no-repeat;
@@ -15,7 +15,7 @@
 }
 
 #board {
-    background: url(/pexels-photo-4032662.jpeg);
+    background: url(/images/pexels-photo-4032662.jpeg);
     width: 150vmin;
     height: 90vmin;
     border: 2px solid black;

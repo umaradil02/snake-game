@@ -1,9 +1,9 @@
 // variable
 let inputdirr = {x:0, y:0};
-const MoveSound = new Audio("move.mp3");
-const foodsound = new Audio("food.mp3");
-const gameover = new Audio("gameover.mp3");
-const music = new Audio("music.mp3");
+const MoveSound = new Audio("/music/move.mp3");
+const foodsound = new Audio("/music/food.mp3");
+const gameover = new Audio("/music/gameover.mp3");
+const music = new Audio("/music/music.mp3");
 console.log(MoveSound)
 let popup = document.getElementById("popup");
 let popupText = document.getElementById("text");

@@ -1,0 +1,108 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.body {
+    background: url(/snake-game-landscape-jo62cmzftq0wei66.jpg);
+    min-height: 100vh;
+    background-size: 100vw 100vh;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#board {
+    background: url(/pexels-photo-4032662.jpeg);
+    width: 150vmin;
+    height: 90vmin;
+    border: 2px solid black;
+    display: grid;
+    grid-template-columns: repeat(18, 1fr);
+    grid-template-rows: repeat(18, 1fr);
+}
+#point{
+   position: absolute; 
+   top: 12px;
+   right: 60px;
+   font-size: 39px;
+   font-weight: 800;
+
+}
+.head {
+    background-color: black;
+    border: 2px solid white;
+    border-radius: 12PX;
+    width: 30px;
+    height: 30px;
+}
+
+.snake {
+    background-color: black;
+    border-radius: 10px;
+    border: 1vmin solid white;
+    width: 25px;
+    height: 25px;
+}
+
+.food {
+    background-color: red;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border: 2px solid #333;
+}
+.popup{
+    width: 400px;
+    background: #ffff;
+    border-radius: 6px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%,-50%) scale(0.1);
+    text-align: center;
+    padding: 0 30px 30px;
+    color: #333;
+    visibility: hidden;
+    transition: transform 0.4s, top 0.4s;
+  }
+  .popup_show{
+    top: 50%;
+    transform: translate(-50%,-50%) scale(1);
+    visibility: visible;
+  }
+  .popup img{
+    width: 100px;
+    margin-top: -50px;
+    border-radius: 50%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  #score{
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: capitalize;
+  }
+  .popup h2{
+    font-size: 38px;
+    font-weight: 500;
+    margin: 30px 0 10px;
+    text-transform: capitalize;
+  }
+  .popup button{
+    width: 100%;
+    margin-top: 50px;
+    padding: 10px 0;
+    background: #6fd649;
+    color: #fff;
+    border: 0;
+    outline: none;
+    font-size: 18px;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+    
+  }
+  

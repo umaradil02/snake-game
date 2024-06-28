@@ -16,7 +16,7 @@
 
 #board {
     background: url(/images/pexels-photo-4032662.jpeg);
-    width: 150vmin;
+    width: 140vmin;
     height: 90vmin;
     border: 2px solid black;
     display: grid;
@@ -41,7 +41,7 @@
 
 .snake {
     background-color: black;
-    border-radius: 10px;
+    border-radius: 8px;
     border: 1vmin solid white;
     width: 25px;
     height: 25px;
